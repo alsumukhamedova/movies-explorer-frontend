@@ -1,0 +1,50 @@
+.main__line{
+    color: #DADADA;
+    height: 0;
+    margin: 0;
+}
+
+.main__line-technologies {
+    margin: 0 70px;
+}
+
+@media screen and (max-width: 768px) {
+    .main__line-technologies {
+        margin: 0 50px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .main__line-technologies {
+        margin: 0 18px;
+    }
+}
+
+.main__section-title {
+    font-size: 22px;
+    font-weight: normal;
+    padding-bottom: 23px;
+}
+
+@media screen and (max-width: 540px) {
+    .main__section-title {
+        font-size: 18px;
+        padding-bottom: 28px;
+    }
+}
+
+.main__section-title-technologies {
+    margin-left: 70px;
+}
+
+@media screen and (max-width: 768px) {
+    .main__section-title-technologies {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .main__section-title-technologies {
+        margin-left: 18px;
+    }
+}

@@ -1,0 +1,125 @@
+.profile__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile__title {
+    margin: 0;
+    margin-top: 74px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .profile__title {
+        margin-top: 246px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .profile__title {
+        margin-top: 70px;
+    }
+}
+
+.profile__edit-form{
+    margin-top: 123px;
+}
+
+.profile__edit-form-input {
+    text-align: right;
+    background-color: inherit;
+    outline: none;
+    font-size: 11px;
+    font-weight: normal;
+    color: white;
+    border: none;
+    width: 122px;
+}
+
+.profile__edit-form-input:focus {
+    border-bottom: 0.5px solid #4285F4;
+}
+
+.profile__edit-form-label{
+    width: 141px;
+    font-size: 11px;
+    font-weight: 500;
+    text-align: left;
+    margin-right: 250px;
+}
+
+.profile__edit-form-label:first-child {
+    margin-right: 260px;;
+}
+
+.profile__edit-form-input-text {
+    display: block;
+    color: #EE3465;
+    font-size: 10px;
+    font-weight: normal;
+    text-align: right;
+    margin-top: 6px;
+}
+
+.profile__info-line{
+    width: 410px;
+    border: 1px solid #424242
+}
+
+@media screen and (max-width: 540px) {
+    .profile__info-line {
+        width: 260px;
+    }
+}
+
+.profile__edit-form-button{
+    background: #202020;
+    font-size: 13px;
+    font-weight: normal;
+    border: none;
+    color: white;
+    padding: 0;
+    margin: 110px auto 16px;
+    cursor: pointer;
+    width: 410px;
+    text-align: center;
+}
+
+@media screen and (max-width: 540px) {
+    .profile__edit-form-button {
+        font-size: 12px;
+    }
+}
+
+.profile__edit-form-button:hover {
+    color: #4285F4;
+}
+
+.profile__exit-button {
+    background: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+    color: #EE3465;
+    padding: 0;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 540px) {
+    .profile__exit-button {
+        font-size: 12px;
+    }
+}
+
+.profile__exit-button:hover {
+    color: #c90035;
+}
+
+.profile__massage {
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 110px;
+}
