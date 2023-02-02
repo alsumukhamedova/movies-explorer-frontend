@@ -14,9 +14,9 @@ function Navigation ({isOpen, onClose}) {
                 </nav>
 
                 <Link className = 'navigation__button' to='/profile' onClick={onClose}>
-                    <p className='navigation__button-text'>Аккаунт</p>
                     <div className='navigation__button-icon'>
                         <img className='navigation__button-image' src={ButtonImage} alt='Профиль' />
+                        <p className='navigation__button-text'>Аккаунт</p>
                     </div>
                 </Link>
                 <button className='navigation__closeButton' onClick={onClose} type='button' />
