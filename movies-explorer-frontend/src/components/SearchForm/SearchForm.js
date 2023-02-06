@@ -40,6 +40,7 @@ function SearchForm ({searchMovie, movies, onShort, isShort}) {
                     {...register('text', {required: 'Нужно ввести ключевое слово',
                         value: location.pathname === '/movies'? newValue : ''})}
                     placeholder='Фильм'
+                    required
                     onChange={(e) => handleChangeValue(e)}></input>
                 <button className='searchForm__button' type='submit'></button>
                 <span className='searchForm__input-error-text'>{errors.text?.message}</span>

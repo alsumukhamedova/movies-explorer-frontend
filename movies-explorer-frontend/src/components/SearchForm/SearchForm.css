@@ -22,11 +22,11 @@
 .searchForm__Form {
     position: relative;
     height: 50px;
-    width: 932px;
+    width: 100%;
 }
 
 .searchForm__input{
-    width: 100%;
+    width: 932px;
     height: 34px;
     background-color: inherit;
     outline: none;
