@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# 2 and 3 pull requests are both in pr 2 in my project
+https://github.com/alsumukhamedova/movies-explorer-frontend/pull/3
+
 # The Layout
 
 The layout for this project you can find on the link below:
