@@ -90,21 +90,21 @@
 
 .portfolio__link-image {
     width: 29px;
-    height: 29px;
-    object-fit: cover;
+    height: 60px;
+    object-fit: contain;
 }
 
 @media screen  and (max-width: 768px) {
     .portfolio__link-image {
         width: 27px;
-        height: 27px;
+        height: 60px;
     }
 }
 
 @media screen  and (max-width: 540px) {
     .portfolio__link-image {
         width: 18px;
-        height: 18px;
+        height: 28px;
         margin: 35px;
     }
 }
